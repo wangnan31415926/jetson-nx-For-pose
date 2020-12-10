@@ -8,6 +8,7 @@ Use jetson nx for pose detections
     
     
     sudo apt-get install python3-pip
+    sudo apt-get install python3-setuptools
     pip3 install Cython
     pip3 install numpy torch-1.7.0-cp36-cp36m-linux_aarch64.whl
     
