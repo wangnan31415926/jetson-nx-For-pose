@@ -4,17 +4,17 @@ Use jetson nx for pose detections
 ### Step 1 - Install Dependencies
 1.Install PyTorch=v1.7.0 and Torchvision=v0.8.0 To do this on NVIDIA Jetson nx. we recommend following [this guide](https://forums.developer.nvidia.com/t/72048)
     
-    ```python
+    
     sudo apt-get install python3-pip
     pip3 install Cython
     pip3 install numpy torch-1.7.0-cp36-cp36m-linux_aarch64.whl
-    ```
-    ```python
+    
+    
     sudo apt-get install libjpeg-dev zlib1g-dev
     git clone --branch v0.8.0 https://github.com/pytorch/vision torchvision
     cd torchvision
     sudo python3 setup.py install 
-    ```
+    
 
 2. Install [torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 
