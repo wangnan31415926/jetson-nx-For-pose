@@ -1,6 +1,7 @@
 # jetson-nx-For-pose
 Use jetson nx for pose detections
 
+<img src="https://user-images.githubusercontent.com/4212806/67125332-71a64580-f1a9-11e9-8ee1-e759a38de215.gif" height=256/>
 ### Step 1 - Install Dependencies
 1.Install PyTorch=v1.7.0 and Torchvision=v0.8.0 To do this on NVIDIA Jetson nx. we recommend following [this guide](https://forums.developer.nvidia.com/t/72048)
     
