@@ -14,9 +14,13 @@ Use jetson nx for pose detections
     
     
     sudo apt-get install libjpeg-dev zlib1g-dev
+    sudo apt-get install libopenblas-base libopenmpi-dev
     git clone --branch v0.8.0 https://github.com/pytorch/vision torchvision
     cd torchvision
     sudo python3 setup.py install 
+    
+   if fatal error: libavcodec/avcodec.h: No such file or directory,you can change 'if has_ffmpeg' TO 'False' insetup.py
+
     
 
 2. Install [torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
