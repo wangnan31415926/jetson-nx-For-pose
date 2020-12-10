@@ -42,7 +42,7 @@ sudo python3 setup.py install
 ### Step 3 - Run the example notebook
 
 We provide a couple of human pose estimation models pre-trained on the MSCOCO dataset.  The throughput in FPS is shown for each platform
-# You need install [jetcam](http://github.com/NVIDIA-AI-IOT/jetcam) 
+#### You need install [jetcam](http://github.com/NVIDIA-AI-IOT/jetcam) 
 | Model | Jetson Nano | Jetson Xavier | Weights |
 |-------|-------------|---------------|---------|
 | resnet18_baseline_att_224x224_A | 22 | 251 | [download (81MB)](https://drive.google.com/open?id=1XYDdCUdiF2xxx4rznmLb62SdOUZuoNbd) |
